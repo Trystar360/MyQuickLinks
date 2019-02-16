@@ -1,0 +1,21 @@
+.tab{
+    transition: all 2s;
+}
+.hero-body{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+body{
+    transition: all 2s;
+}
+.nbarLogo{
+    font-size: 20px;
+    font-family: 'Coiny', cursive;
+}
+.item :hover{
+    background-color: hsl(0, 0%, 48%);
+}
