@@ -6,8 +6,8 @@ $(".tab").click(function(){
 });
 
 function showTab(x){
-    $(".hero-body").attr("id", "");
-    $("." + x).attr("id", "htab");
+    $(".hero-body").addClass("is-hidden");
+    $("." + x).removeClass("is-hidden");
 }
 
 function changeColor(x){
@@ -65,5 +65,5 @@ function logOut(){
 }
 
 function loadTabs(){
-    
+
 }
