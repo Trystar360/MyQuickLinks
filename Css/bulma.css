@@ -10430,6 +10430,11 @@ label.panel-block:hover {
 
 .hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body, .hero.is-fullheight-with-navbar .hero-body {
   align-items: center;
+  display: none;
+}
+
+#htab{
+  align-items: center;
   display: flex;
 }
 
@@ -10437,6 +10442,8 @@ label.panel-block:hover {
   flex-grow: 1;
   flex-shrink: 1;
 }
+
+
 
 .hero.is-halfheight {
   min-height: 50vh;
