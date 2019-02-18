@@ -63,3 +63,7 @@ function logOut(){
     $("#navLogIn").removeClass("is-hidden");
     $("#navLogOut").addClass("is-hidden");
 }
+
+function loadTabs(){
+    
+}
