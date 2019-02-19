@@ -30,5 +30,7 @@ function findUser(email){
       return i;
     }
   }
+  console.log("NotAnEmail");
+  openNot();
   return 0;
 }

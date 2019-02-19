@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  
   <section class="hero is-info is-fullheight">
     <div class="hero-head">
       <nav class="navbar">
@@ -24,108 +25,199 @@
           </div>
         </div>
         <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-light" id="navSignUp" onclick="window.open('https://goo.gl/forms/0O7XmwEL9Z1oWmHj1');">
-                  Sign up
-                </a>
-                <a class="button is-light" id="navLogIn" onclick="$('#emailModal').addClass('is-active');">
-                  Log in
-                </a>
-                <a class="button is-light is-hidden" id="navLogOut" onclick="logOut();">
-                    Log Out
-                  </a>
-              </div>
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-light" id="navSignUp"
+                onclick="window.open('https://goo.gl/forms/0O7XmwEL9Z1oWmHj1');">
+                Sign up
+              </a>
+              <a class="button is-light" id="navLogIn" onclick="$('#emailModal').addClass('is-active');">
+                Log in
+              </a>
+              <a class="button is-light is-hidden" id="navLogOut" onclick="logOut();">
+                Log Out
+              </a>
             </div>
           </div>
+        </div>
     </div>
     </nav>
 
     </div>
+    <div class="notification is-primary" id="wrongEmail">
+      <div id="wrongEmailBody">
+        <div class="columns">
+        <div class="column is-1" style="width: 80px">
+          <button class="delete" onclick = "closeNot()"></button>
+        </div>
+          <div class="column">
+            <p class="title">Oops!</p>
+            <p class="subtitle">Sorry, This is not an email in the database. Please make sure youve typed it correctly and have signed up.</p>
+          </div>
+      </div>
+    </div>
+        
+      </div>
     <!-------------------------------------------------------------------------------------------------------------------------->
     <!--Home-->
     <div class="hero-body home">
-    <div class="comumns">
-    <div class="has-text-centered"> 
-      <div class="title">Home</div>
+            <div class="container has-text-centered">
+              <h1 class="title" style="padding-bottom: 40px">
+                Home
+              </h1>
+              <h2 class="subtitle">
+                  <div class="columns">
+                      <div class="column">
+                        <a href="#" class="button is-large item is-fullwidth is-light is-rounded" id="0-1">
+                          Schoology
+                        </a>
+                      </div>
+                      <div class="column">
+                        <a class="button is-large item is-fullwidth is-light is-rounded" id="0-2">
+                          PowerSchool
+                        </a>
+                      </div>
+                      <div class="column">
+                        <a class="button is-large item is-fullwidth is-light is-rounded" id="0-3">
+                          Google Drive
+                        </a>
+                      </div>
+                      <div class="column">
+                        <a class="button is-large item is-fullwidth is-light is-rounded" id="0-4">
+                          Destiny
+                        </a>
+                      </div>
+              </h2>
+            </div>
     </div>
-        </div>
-      
-          <div class="comumns">
-      <div class="container has-text-centered">
-        <div class="columns">
-          <div class="column">
-            <a href= "#" class="button is-large item is-fullwidth is-light is-rounded" id="0-1">
-              Schoology
-            </a>
-          </div>
-          <div class="column">
-            <a class="button is-large item is-fullwidth is-light is-rounded" id="0-2">
-              PowerSchool
-            </a>
-          </div>
-          <div class="column">
-            <a class="button is-large item is-fullwidth is-light is-rounded" id="0-3">
-              Google Drive
-            </a>
-          </div>
-          <div class="column">
-            <a class="button is-large item is-fullwidth is-light is-rounded" id="0-4">
-              Destiny
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
     <!-------------------------------------------------------------------------------------------------------------------------->
     <!--blk1-->
-    <div class="hero-body blk1 is-hidden">
-      <div class="container has-text-centered">
-        <p class="title">
-          Music Studio
-        </p>
-        <p class="subtitle">
-          Subtitle
-        </p>
-      </div>
+    <div class="hero-body tblk1 is-hidden">
+        <div class="container has-text-centered">
+            <h1 class="title" id = "blk1Title" style="padding-bottom: 40px">
+              Block 1
+            </h1>
+            <h2 class="subtitle">
+                <div class="columns">
+                    <div class="column">
+                      <a href="http://schoology.cocalico.org" class="button is-large item is-fullwidth is-light is-rounded" id="1-1">
+                        Schoology
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a  href = "https://powerschool.cocalico.org/public/" class="button is-large item is-fullwidth is-light is-rounded" id="1-2">
+                        PowerSchool
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a href = "https://drive.google.com/drive/u/0/my-drive" class="button is-large item is-fullwidth is-light is-rounded" id="1-3">
+                        Google Drive
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a href = "https://cocalico.follettdestiny.com/common/welcome.jsp?context=saas23_3718014" class="button is-large item is-fullwidth is-light is-rounded" id="1-4">
+                        Destiny
+                      </a>
+                    </div>
+            </h2>
+          </div>
     </div>
     <!-------------------------------------------------------------------------------------------------------------------------->
     <!--blk2-->
 
-    <div class="hero-body blk2 is-hidden">
-      <div class="container has-text-centered">
-        <p class="title">
-          Engineering
-        </p>
-        <p class="subtitle">
-          Subtitle
-        </p>
-      </div>
+    <div class="hero-body tblk2 is-hidden">
+        <div class="container has-text-centered">
+            <h1 class="title" id = "blk2Title" style="padding-bottom: 40px">
+              Block 1
+            </h1>
+            <h2 class="subtitle">
+                <div class="columns">
+                    <div class="column">
+                      <a href="http://schoology.cocalico.org" class="button is-large item is-fullwidth is-light is-rounded" id="2-1">
+                        Schoology
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a  href = "https://powerschool.cocalico.org/public/" class="button is-large item is-fullwidth is-light is-rounded" id="2-2">
+                        PowerSchool
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a href = "https://drive.google.com/drive/u/0/my-drive" class="button is-large item is-fullwidth is-light is-rounded" id="2-3">
+                        Google Drive
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a href = "https://cocalico.follettdestiny.com/common/welcome.jsp?context=saas23_3718014" class="button is-large item is-fullwidth is-light is-rounded" id="2-4">
+                        Destiny
+                      </a>
+                    </div>
+            </h2>
+          </div>
     </div>
     <!-------------------------------------------------------------------------------------------------------------------------->
     <!--blk3-->
-    <div class="hero-body blk3 is-hidden">
-      <div class="container has-text-centered">
-        <p class="title">
-          Health
-        </p>
-        <p class="subtitle">
-          Subtitle
-        </p>
-      </div>
+    <div class="hero-body tblk3 is-hidden">
+        <div class="container has-text-centered">
+            <h1 class="title" id = "blk3Title" style="padding-bottom: 40px">
+              Block 1
+            </h1>
+            <h2 class="subtitle">
+                <div class="columns">
+                    <div class="column">
+                      <a href="http://schoology.cocalico.org" class="button is-large item is-fullwidth is-light is-rounded" id="3-1">
+                        Schoology
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a  href = "https://powerschool.cocalico.org/public/" class="button is-large item is-fullwidth is-light is-rounded" id="3-2">
+                        PowerSchool
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a href = "https://drive.google.com/drive/u/0/my-drive" class="button is-large item is-fullwidth is-light is-rounded" id="3-3">
+                        Google Drive
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a href = "https://cocalico.follettdestiny.com/common/welcome.jsp?context=saas23_3718014" class="button is-large item is-fullwidth is-light is-rounded" id="3-4">
+                        Destiny
+                      </a>
+                    </div>
+            </h2>
+          </div>
     </div>
     <!-------------------------------------------------------------------------------------------------------------------------->
     <!--blk4-->
-    <div class="hero-body blk4 is-hidden">
-      <div class="container has-text-centered">
-        <p class="title">
-          Civics and Gov
-        </p>
-        <p class="subtitle">
-          Subtitle
-        </p>
-      </div>
+    <div class="hero-body tblk4 is-hidden">
+        <div class="container has-text-centered">
+            <h1 class="title" id = "blk4Title" style="padding-bottom: 40px">
+              Block 1
+            </h1>
+            <h2 class="subtitle">
+                <div class="columns">
+                    <div class="column">
+                      <a href="http://schoology.cocalico.org" class="button is-large item is-fullwidth is-light is-rounded" id="4-1">
+                        Schoology
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a  href = "https://powerschool.cocalico.org/public/" class="button is-large item is-fullwidth is-light is-rounded" id="4-2">
+                        PowerSchool
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a href = "https://drive.google.com/drive/u/0/my-drive" class="button is-large item is-fullwidth is-light is-rounded" id="4-3">
+                        Google Drive
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a href = "https://cocalico.follettdestiny.com/common/welcome.jsp?context=saas23_3718014" class="button is-large item is-fullwidth is-light is-rounded" id="4-4">
+                        Destiny
+                      </a>
+                    </div>
+            </h2>
+          </div>
     </div>
 
     <div class="hero-foot">
@@ -173,6 +265,7 @@
       </footer>
     </div>
   </div>
+
   <script src="Js/jquery.js"></script>
   <script src="Js//sheets.js"></script>
   <script src="Js/script.js"></script>

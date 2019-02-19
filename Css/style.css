@@ -23,3 +23,13 @@ body{
 .is-hidden{
     display: none;
 }
+
+#wrongEmail{
+height: 0px;
+display: none;
+padding: 0px;
+}
+
+#wrongEmailBody{
+    display: none;
+}
